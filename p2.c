@@ -29,12 +29,7 @@ int main(){
         exec_time += (end.tv_usec - start.tv_usec)/1000.0;
 
         printf("Child %d Executed in  %.2f millis \n " , child_no ,  exec_time);
+
     }
-    
-
-    
-
-    
-
 
 }
